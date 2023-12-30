@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import './scss/_mixin';
+@import './scss/_var';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $white;
+  font-family: 'segoe UI', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $bgColor;
+}

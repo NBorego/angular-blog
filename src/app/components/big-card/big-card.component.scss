@@ -1,0 +1,27 @@
+@import '../../../scss/_var';
+@import '../../../scss/_mixin';
+
+article {
+  @include displayFlex(flex-start, flex-start);
+  margin: 0rem 0.6rem;
+  width: 25rem;
+  height: 31.25rem;
+
+  picture,
+  img {
+    width: 100%;
+  }
+
+  header {
+    margin-top: 0.9rem;
+    font-size: 1.25rem;
+  }
+
+  main {
+    margin-top: 0.9rem;
+
+    p {
+      opacity: 25%;
+    }
+  }
+}

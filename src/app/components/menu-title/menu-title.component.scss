@@ -1,0 +1,17 @@
+@import '../../../scss/_var';
+@import '../../../scss/_mixin';
+
+header {
+  hr {
+    margin: 0.5rem 0rem;
+  }
+
+  h1 {
+    @include displayFlex;
+
+    font-weight: bold;
+    margin: 1rem 0rem;
+    font-size: 8.4rem;
+    text-transform: uppercase;
+  }
+}

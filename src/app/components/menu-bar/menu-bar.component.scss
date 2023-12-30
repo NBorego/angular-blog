@@ -1,0 +1,13 @@
+@import '../../../scss/_var';
+@import '../../../scss/_mixin';
+
+nav {
+  padding-top: 0.5rem;
+
+  ul {
+    @include displayFlex(center, center, row);
+
+    gap: 1.25rem;
+    list-style: none;
+  }
+}

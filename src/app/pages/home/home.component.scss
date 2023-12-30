@@ -1,0 +1,7 @@
+@import '../../../scss/_mixin';
+
+div.container-article {
+  @include displayFlex(center, none, row);
+  gap: 1rem;
+  margin-top: 1.8rem;
+}
