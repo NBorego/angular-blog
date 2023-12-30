@@ -1,0 +1,26 @@
+@import '../../../scss/_mixin';
+@import '../../../scss/_var';
+
+.container {
+  @include displayFlex(none);
+
+  width: 100%;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+
+  picture {
+    display: block;
+
+    img {
+      width: 31.25rem;
+      min-width: 31.25rem;
+      height: 18.75rem;
+    }
+  }
+
+  main p {
+    p {
+      opacity: 35%;
+    }
+  }
+}
